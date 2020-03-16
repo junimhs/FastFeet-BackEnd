@@ -6,11 +6,11 @@ class App {
   constructor() {
     this.server = express();
 
-    this.midllewares();
+    this.middlewares();
     this.routes();
   }
 
-  midllewares() {
+  middlewares() {
     this.server.use(express.json());
   }
 

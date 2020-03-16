@@ -3,8 +3,9 @@ import sequelizeConfig from '../config/database';
 
 // Importando os models
 import User from '../app/models/User';
+import Recipient from '../app/models/Recipient';
 
-const models = [User];
+const models = [User, Recipient];
 
 class Database {
   constructor() {
